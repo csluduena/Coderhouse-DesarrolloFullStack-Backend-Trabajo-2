@@ -1,0 +1,297 @@
+@font-face {
+    font-family: 'Dienasty';
+    src: url('/assets/fonts/dienasty.otf') format('opentype');
+}
+
+/* General */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #ffffff;
+    text-align: center;
+    position: relative;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('/img/wallG2.png') center/cover no-repeat;
+    filter: blur(10px);
+    z-index: -1;
+}
+
+h1 {
+    margin-top: 1em;
+    font-size: 60px;
+    color: #f00;
+    text-shadow: -3px 3px 0px black;
+    font-family: "Dienasty";
+}
+
+/* Container for Products */
+.productsContainer {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+/* Card Style */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #00000091;
+}
+
+.productImage {
+    width: 210px;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.product-description {
+    font-size: 14px;
+    color: #ffffff;
+    margin: 5px 0;
+}
+
+.product-image {
+    width: 450px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+/* Buttons */
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.button {
+    margin-top: 3em;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    border: 1px solid white;
+    background-color: #4110054a;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.button:hover {
+    background-color: #000000;
+    transform: scale(1.05);
+}
+
+.delete-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 3em;
+}
+
+.delete-button:hover {
+    color: rgb(255, 73, 73);
+    background-color: #8f1010;
+}
+
+/* Form */
+#add-product-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 20%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #f30000;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+button {
+    color: #fff;
+    border: 1px solid white;
+    background-color: #4110057a;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #000000;
+    transform: scale(1.05);
+}
+
+button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    #add-product-form {
+        padding: 15px;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+    }
+}
+
+/* Floating Button */
+.floating-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    color: #fff;
+    border: 1px solid rgb(255, 0, 0);
+    background-color: #000000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.floating-button:hover {
+    color: rgb(255, 73, 73);
+    background-color: #ffffff;
+}
+
+/* Guide */
+.guide {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #000000e3;
+    text-align: left;
+    margin-top: 5rem;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.guide h2 {
+    margin-top: 0;
+}
+
+.guide p {
+    margin: 10px 0;
+}
+
+.guide ul {
+    list-style-type: disc;
+    margin: 10px 0 10px 20px;
+}
+
+.guide ul li {
+    margin: 5px 0;
+}
+
+/* Estilos para el footer */
+.site-footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    /* Negro semi-difuminado */
+    color: #fff;
+    /* Letras blancas */
+    margin-top: 3em;
+    margin-bottom: 1em;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    /* Línea blanca sutil en la parte superior */
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-links {
+    margin-top: 10px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    position: relative;
+    /* Posición relativa para los efectos de línea */
+    padding: 5px 0;
+}
+
+.footer-links a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width 0.3s;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.footer-links a:hover::after {
+    width: 100%;
+}
+
+.footer-links a:hover {
+    text-decoration: none;
+    color: #f0f0f0;
+    /* Color de texto ligeramente más claro al pasar el ratón */
+}

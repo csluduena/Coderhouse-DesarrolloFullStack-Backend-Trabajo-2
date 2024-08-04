@@ -1,0 +1,25 @@
+{
+    "name": "backend-segunda-entrega",
+    "version": "2.0.0",
+    "main": "app.js",
+    "type": "module",
+    "scripts": {
+        "dev": "nodemon src/app.js",
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "author": "Carlos Sebastian Ludueña",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "express": "^4.19.2",
+        "express-handlebars": "^7.1.3",
+        "fs": "^0.0.1-security",
+        "nodemon": "^3.1.4",
+        "readme-md-generator": "^1.0.0",
+        "socket.io": "^4.7.5",
+        "uuid": "^10.0.0"
+    }
+}

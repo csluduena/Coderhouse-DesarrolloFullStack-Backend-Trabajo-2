@@ -1,0 +1,101 @@
+[
+    {
+        "id": "SG-Standard",
+        "nombre": "Gibson SG Standard 2016 T",
+        "precio": 1457,
+        "imagen": "/img/GibsonSGStandard2016T.png",
+        "descripcion": "The Gibson SG was born in 1961 and since then it has become a staple throughout the world of popular music. Its double cutaway means that access to the highest frets is easy and its thinner body means that it’s lighter too (compared to a Les Paul). The Gibson SG Standard 2016 T is a nod back to the SGs of the 60s and we, here at Reidys, really like it.",
+        "categoria": {
+            "id": "SG",
+            "nombre": "SG"
+        }
+    },
+    {
+        "id": "SG-Faded",
+        "nombre": "Gibson SG Faded 2016 T",
+        "precio": 1196,
+        "imagen": "/img/GibsonSGFaded2016T.png",
+        "descripcion": "The Gibson SG Faded 2016 T offers you the classic double cutaway guitar at an amazing price. It’s a guitar that boasts incredible construction, great tone and fantastic playability. With a classic look and classic sound, you can join the likes of Angus Young, Tony Iommi, Pete Townshend, Kelly Jones, Derek Trucks and more, at a more affordable price than ever.",
+        "categoria": {
+            "id": "SG",
+            "nombre": "SG2"
+        }
+    },
+    {
+        "id": "Les-Paul-50s",
+        "nombre": "Gibson Les Paul 50s Tribute 2016 T",
+        "precio": 1062,
+        "imagen": "/img/GibsonLesPaul50sTribute2016T.png",
+        "descripcion": "Old school look and sound at an amazing price point. The Gibson Les Paul 50s Tribute 2016 T does what it says on the tin – it gives you a modern remake of a 50s style Les Paul – classic looks, tones and feel. I’m a huge fan of the old Les Pauls so I’m really glad to see this guitar make it into the 2016 Gibson electric guitar range.",
+        "categoria": {
+            "id": "Les-Paul",
+            "nombre": "Les-Paul"
+        }
+    },
+    {
+        "id": "Les-Paul-Studio",
+        "nombre": "Gibson Les Paul Studio 2016 T",
+        "precio": 1399,
+        "imagen": "/img/GibsonLesPaulStudio2016T.png",
+        "descripcion": "The Gibson Les Paul Studio made its way into production in the early 80s. It missed out on some of the aesthetic features to keep cost down but it still sounded and played like a Les Paul should have done. Now, it’s an incredibly popular model and no wonder – they sound fantastic and though they’re a little bit thinner and don’t look quite as flash as some of the more expensive Les Pauls, they’re still certainly eye-catching.",
+        "categoria": {
+            "id": "Les-Paul",
+            "nombre": "Les-Paul2"
+        }
+    },
+    {
+        "id": "Les-Paul-Traditional",
+        "nombre": "Gibson Les Paul Traditional 2016 T",
+        "precio": 1932,
+        "imagen": "/img/GibsonLesPaulTraditional2016T.png",
+        "descripcion": "Are you inspired by the likes of Jimmy Page, Billy Gibbons, Joe Perry or Keith Richards? The Gibson Les Paul has been played on countless classic songs and albums over the last six decades or so, especially within rock and blues. The Gibson 2016 Les Paul Traditional T captures the essence of those early original Les Pauls played by our heroes with a spec that’s pretty close to those incredibly hallowed and sought after guitars.",
+        "categoria": {
+            "id": "Les-Paul",
+            "nombre": "Les-Paul3"
+        }
+    },
+    {
+        "id": "Stratocaster-Sunburst",
+        "nombre": "Fender Stratocaster - Sunburst PF",
+        "precio": 799,
+        "imagen": "/img/PlayerStrat3-ColourSunburstPF.png",
+        "descripcion": "The good, old standard series is getting up in the years so it's time for something new! The Player Stratocaster PF 3TS made in Mexico is a worthy successor - this model offers everything you can expect from a good Strat: solid alder body, one-piece maple neck, a set of Alnico 5 single coils, modern, playable neck, 2 point tremolo With curved steel riders and above-average workmanship, this guitar is a real all-round workhorse.",
+        "categoria": {
+            "id": "Stratocaster",
+            "nombre": "Stratocaster"
+        }
+    },
+    {
+        "id": "Stratocaster-American",
+        "nombre": "Fender Stratocaster - American Performer Strat Honey Burst RW",
+        "precio": 1539,
+        "imagen": "/img/fender-american-BurstRW.png",
+        "descripcion": "Fender's long-established tonewood combinations remain intact with the American Performer Strat. Featuring an Alder body, this popular material ensures balanced lows, lively mids and a crisp top-end, serving as the perfect tonal foundation for the bright-sounding single-coils.",
+        "categoria": {
+            "id": "Stratocaster",
+            "nombre": "Stratocaster2"
+        }
+    },
+    {
+        "id": "Flying-V-Kirk",
+        "nombre": "Flying V - ESP LTD KH-V RDSP KIRK HAMMETT",
+        "precio": 1698,
+        "imagen": "/img/esp-ltd-kh-v-rdsp-kirk-hammett-red-sparkle.png",
+        "descripcion": "Kirk Hammett Signature Series electric guitar with korina body and EMG Bone Breaker Signature Kirk Hammett pickups. Color: Red sparkle. Includes case.",
+        "categoria": {
+            "id": "Flying-V",
+            "nombre": "Flying-V"
+        }
+    },
+    {
+        "id": "Flying-V2-Alexi",
+        "nombre": "Flying V - ESP LTD Alexi Hexed",
+        "precio": 1799,
+        "imagen": "/img/ESP-LTD-Alexi-Hexed.png",
+        "descripcion": "Capturing the essence of one of the world's most beloved and influential figures in metal music, the ESP LTD Alexi Hexed is among the final guitars designed by Children of Bodom/Bodom After Midnight frontman Alexi Laiho.",
+        "categoria": {
+            "id": "Flying-V",
+            "nombre": "Flying-V2"
+        }
+    }
+]

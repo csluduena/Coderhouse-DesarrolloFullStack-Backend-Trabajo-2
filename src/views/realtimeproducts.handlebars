@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RealTime Productos</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+    <!-- Botón flotante "Back" -->
+    <a href="http://localhost:8080/" class="floating-button">Back</a>
+    <h1>RealTime Products</h1>
+    <div id="contenedorProductos" class="productsContainer">
+        <!-- Los productos serán insertados aquí por el JavaScript -->
+    </div>
+    <!-- Botón GET BACK STOCK -->
+    <div id="importStockContainer" style="text-align: center; display: none;">
+        <button id="importStockButton">GET BACK STOCK</button>
+    </div>
+
+    <!-- Inclusión de Socket.IO desde el servidor -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.2/socket.io.min.js"></script>
+    <script src="/js/realtimeproducts.js"></script>
+</body>
+
+</html>

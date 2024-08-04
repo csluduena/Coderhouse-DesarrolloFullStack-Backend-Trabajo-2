@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+    <h1>{{title}}</h1>
+
+    <!-- Botones de navegación -->
+    <div class="button-container">
+        {{#each buttons}}
+        <a href="{{link}}" class="button">{{name}}</a>
+        {{/each}}
+    </div>
+
+    <!-- Guía de uso -->
+    <div class="guide">
+        <br>
+        <h2>¡Guía de Uso!</h2><br>
+        <p><strong>1. Products</strong>: Accede a la lista completa de productos en la tienda. Puedes ver la información
+            de cada producto, pero para ver actualizaciones en tiempo real deberás recargar la página manualmente.</p><br>
+        <p><strong>2. RTP (RealTime Products)</strong>: Visualiza los productos en tiempo real. Esta página se actualiza
+            automáticamente con cualquier cambio en los productos sin necesidad de recargar la página.</p>
+        <p><strong><br>3. Add Products</strong>: Agrega nuevos productos a la tienda. Puedes ingresar la información del
+            producto, como nombre, precio, descripción e imagen. Los productos se agregarán a la lista de productos y se
+            reflejarán tanto en la vista de productos en tiempo real como en la vista de productos.</p><br><br>
+        <p><strong>Funciones adicionales:</strong></p>
+        <ul>
+            <li><strong>Reponer stock:</strong> Si eliminas todos los productos de la lista en "Real Time Products", aparecerá un botón en pantalla; "GET BACK 
+                STOCK", que te permitirá reponer el total del stock de los productos.</li>
+            <li><strong>Agregar productos individualmente:</strong> En la vista "Add Products", puedes agregar productos
+                de uno en uno. Estos productos se agregarán al stock y se reflejarán en ambas vistas. (<strong>PLUS IMPORTANTE</strong>, hay una pequeña aparición rara como imagen cuando se agrega un producto individualmente. </li><br>
+        </ul>
+        <p><strong>Acerca de Postman:</strong> el servicio de Postman está 100% funcional, acorde a la primer entrega, se puede crear, editar y eliminar tanto carritos como productos y sus respectivas descripciones y características.</p>
+    </div>
+</body>
+
+</html>
