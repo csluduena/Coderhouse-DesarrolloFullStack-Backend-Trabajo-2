@@ -31,6 +31,18 @@ app.set("views", path.join(__dirname, "views"));
 app.use(express.json());
 app.use(express.static(path.join(__dirname, "public")));
 
+// Ruta para la página principal
+app.get('/', (req, res) => {
+    res.render('index', {
+        title: 'My Guitar Store', // Puedes pasar datos dinámicos aquí
+        buttons: [
+            { name: 'Products', link: '/products' },
+            { name: 'RTP (RealTime Products)', link: '/realtimeproducts' },
+            { name: 'Add Products', link: '/addproducts' }
+        ]
+    });
+});
+
 // Rutas
 app.use("/api/products", productsRouter);
 app.use("/api/carts", cartsRouter);
